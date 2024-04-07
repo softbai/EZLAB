@@ -1,18 +1,19 @@
 ---
 title: Contact
 description: Send us a message to find out more!
+tel: (021) 20685361
 map:
   latitude: -45.8787605
   longitude: 170.5027976
-  address: "1 George Street, Dunedin, New Zealand"
+  address: "1D-401E, SIST Building, Shanghaitech University, 393 Middle Huaxia Road, Pudong, Shanghai, 201210, China"
   zoom: 13
-image: https://source.unsplash.com/WNAO036c6FM/2000x1322?a=.png
+image: /images/cover/cover.jpg
 ---
 
 <section class="hero" style="background-image: url({% include relative-src.html src=page.image %})">
 	<div class="inner-hero text-container">
 		<div class="hero-text-container">
-			<h1 class="editable">Get in touch today</h1>
+			<h1 class="editable">Get in Touch Today</h1>
 			<p class="subtext editable">If you have any questions or queries send us a message and we'll get back to you as soon as we can.</p>
 		</div>
 	</div>
@@ -20,7 +21,7 @@ image: https://source.unsplash.com/WNAO036c6FM/2000x1322?a=.png
 
 <section class="pad">
 	<div class="text-container contact-box">
-		<form action="{{ site.baseurl }}/contact-success/" method="post" class="contact-form">
+		<!-- <form action="{{ site.baseurl }}/contact-success/" method="post" class="contact-form">
 			<input type="hidden" name="_to" value="support@cloudcannon.com">
 			<input type="text" name="_gotcha" style="display: none;">
 
@@ -34,19 +35,22 @@ image: https://source.unsplash.com/WNAO036c6FM/2000x1322?a=.png
 			<textarea name="message" id="message" placeholder="Enter your message..."></textarea>
 
 			<input type="submit" value="Send Message">
-		</form>
+		</form> -->
 
 		<div class="contact-details">
+			<h2>Prof. Yi Zou</h2>
 			<h3>Address</h3>
-			<address><a target="_blank" href="https://www.google.com/maps/place/{{ page.map.address | url_encode }}">{{ page.map.address | replace: ", ", ", <br>" }}</a></address>
-
+			<!-- <address><a target="_blank" href="https://www.google.com/maps/place/{{ page.map.address | url_encode }}">{{ page.map.address | replace: ", ", ", <br>" }}</a></address> -->
+			<address><a target="_blank">{{ page.map.address | replace: ", ", ", <br>" }}</a></address>
+			<h3>Tel</h3>
+			<p class="editable"><a>(021) 20685361</a></p>
 			<h3>Email</h3>
-			<p class="editable"><a href="mailto:support@example.com">support@example.com</a></p>
+			<p class="editable"><a>zouyi@shanghaitech.edu.cn</a></p>
 		</div>
 	</div>
 </section>
 
-<div class="map" id="map"></div>
+<!-- <div class="map" id="map"></div>
 
 <script>
 	window.mapData = {{ page.map | jsonify }};
@@ -77,4 +81,4 @@ image: https://source.unsplash.com/WNAO036c6FM/2000x1322?a=.png
 		});
 	}
 </script>
-<script async defer src="https://maps.googleapis.com/maps/api/js?key={{ site.google_maps_javascript_api_key }}&amp;callback=initMap"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key={{ site.google_maps_javascript_api_key }}&amp;callback=initMap"></script> -->

@@ -1,4 +1,4 @@
-.staff {
+.pi {
 	padding: 0;
 	margin: 0;
 	list-style: none;
@@ -28,4 +28,162 @@
 		color: #666;
 		font-size: .8em;
 	}
+}
+
+.rs {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	@extend %flexbox;
+	@include flex-flow(wrap);
+	text-align: center;
+	li {
+		padding: 30px 20px;
+		box-sizing: border-box;
+		width: 100%;
+
+		@media #{$tablet} {
+			@include flex(1, 1, 50%);
+		}
+
+		@media #{$desktop} {
+			@include flex(1, 1, 33%);
+		}
+
+	}
+
+	.name {
+		margin-top: 20px;
+	}
+
+	.position {
+		color: #666;
+		font-size: .8em;
+	}
+}
+
+.phd {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	@extend %flexbox;
+	@include flex-flow(wrap);
+	text-align: center;
+	li {
+		padding: 30px 20px;
+		box-sizing: border-box;
+		width: 100%;
+
+		@media #{$tablet} {
+			@include flex(1, 1, 50%);
+		}
+
+		@media #{$desktop} {
+			@include flex(1, 1, 33%);
+		}
+
+	}
+	.square-image{
+		width:150px;
+		height:150px;
+	}
+	.name {
+		margin-top: 20px;
+		font-size: 0.8em;
+	}
+
+	.position {
+		color: #666;
+		font-size: .8em;
+	}
+}
+
+.master {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	@extend %flexbox;
+	@include flex-flow(wrap);
+	text-align: center;
+	li {
+		padding: 30px 20px;
+		box-sizing: border-box;
+		width: 100%;
+
+		@media #{$tablet} {
+			@include flex(1, 1, 50%);
+		}
+
+		@media #{$desktop} {
+			@include flex(1, 1, 33%);
+		}
+
+	}
+	.square-image{
+		width:150px;
+		height:150px;
+	}
+	.name {
+		margin-top: 20px;
+		font-size: 0.8em;
+	}
+
+	.position {
+		color: #666;
+		font-size: .8em;
+	}
+}
+
+.graduate {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	@extend %flexbox;
+	@include flex-flow(wrap);
+	text-align: center;
+	li {
+		padding: 30px 20px;
+		box-sizing: border-box;
+		width: 100%;
+
+		@media #{$tablet} {
+			@include flex(1, 1, 50%);
+		}
+
+		@media #{$desktop} {
+			@include flex(1, 1, 33%);
+		}
+
+	}
+
+	.name {
+		margin-top: 20px;
+	}
+
+	.position {
+		color: #666;
+		font-size: .8em;
+	}
+}
+
+
+
+.staffphoto{
+	flex: 1;
+	// margin-right: 20px; // 调整这个值以改变间隔的大小
+	// margin-left: 100px;
+}
+
+.introtext{
+	flex: 2;
+	// margin-left: 100px;
+
+}
+p.staffintro{
+	color:#dcdcdc;
+	font-size: 0.8em;
+	text-align: justify;
+	font-weight: normal;
+	// line-height: 1em;
+	font-family: 'Arial', sans-serif;
 }

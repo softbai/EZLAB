@@ -1,16 +1,16 @@
 # ----
 # Site
 
-title: Frisco Template
-url: "https://brave-submarine.cloudvent.net"
-baseurl:
+title: EZ-LAB for Optoelectronic Chips
+url: "https://sist.shanghaitech.edu.cn"
+baseurl: "/zouyi"
 google_analytics_key:
 google_maps_javascript_api_key:
 disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: App marketing template for Jekyll.
+description: EZ-LAB for Optoelectronic Chips
 author:
   name:
   email:
@@ -25,7 +25,7 @@ social:
 
 timezone: Etc/UTC
 
-permalink: pretty
+permalink:
 
 plugins:
   - jekyll-sitemap
@@ -44,6 +44,9 @@ collections:
   staff_members:
     _hide_content: true
     _icon: account_circle
+    
+  publications:
+    _hide_content: true
 
 paginate: 10
 paginate_path: "/blog/:num/"

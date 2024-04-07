@@ -30,8 +30,10 @@
 			<div class="container">
 				<div class="company-name">
 					<a href="{{ site.baseurl }}/">
-						<span class="dark-logo"><img width="104" height="38" src="{{ site.baseurl }}/images/logo/dark.svg" alt="dark frisco logo"></span>
-						<span class="light-logo"><img width="104" height="38" src="{{ site.baseurl }}/images/logo/light.svg" alt="light frisco logo"></span>
+						<!-- <span class="dark-logo"><img width="104" height="38" src="{{ site.baseurl }}/images/logo/dark.svg" alt="dark frisco logo"></span> -->
+						<!-- <span class="light-logo"><img width="104" height="38" src="{{ site.baseurl }}/images/logo/light.svg" alt="light frisco logo"></span> -->
+						<span class="light-logo"><img width="104" height="38" src="{{ site.baseurl }}/images/logo/EZ-logo.png" alt="light ezlab logo"></span>
+						<span class="dark-logo"><img width="104" height="38" src="{{ site.baseurl }}/images/logo/EZ-logo.png" alt="dark ezlab logo"></span>
 					</a>
 				</div>
 				{% include navigation.html %}
@@ -65,14 +67,15 @@
 					{% endfor %}
 				</ul>
 				<p class="copyright">
-					<a href="https://cloudcannon.com/">
-						Template by CloudCannon
+					<!-- <a href="https://cloudcannon.com/"> -->
+					<a> 
+						copyright2024@EZ-Lab
 					</a>
 				</p>
 			</div>
 		</footer>
 
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		<script src="{{ site.baseurl }}/js/jquery.min.js"></script>
 		<script src="{{ site.baseurl }}/js/main.js"></script>
 	</body>
 </html>

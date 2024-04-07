@@ -1,30 +1,58 @@
 ---
 title: Home
 description: The latest app to help you find new friends with common interests.
-image: https://source.unsplash.com/j5LSbCqB1wA/2000x1322?a=.png
+image: /images/cover/cover.jpg
+optical_antenna: /images/optical_antenna.jpg
+optical_sensing: /images/optical_sensing.jpg
+optical_interconnect: /images/optical_interconnect.jpg
+optical_computing: /images/optical_computing.jpg
 bottom_image: https://unsplash.it/2000/1322?a=.png
 ---
 
 <section class="hero" style="background-image: url({% include relative-src.html src=page.image %})">
 	<div class="inner-hero text-container">
 		<div class="hero-text-container">
-			<h1 class="editable">Make a new friend today</h1>
-			<p class="subtext editable">Frisco helps you find new friends with common interests. Search for a new Tennis partner, find a baking side-kick or befriend a new drinking buddy.</p>
-			<div class="cta button alt"><a href="#">Join Now</a></div>
+			<h1 class="editable">EZ-Lab for Optoelectronic Chips</h1>
+			<!-- <p class="subtext editable">The EZLab is involved with multiple research programs on integrated photonics and nanophotonics. Our mission is to tackle the challenges of the acceleratingly increasing trend of data, network connections, and bandwidth by providing novel devices with high performance and high energy efficiency. We explore the fundamental device physics and AI-based photonic devices, with applications ranging from optical computing and optical interconnects to optical sensing and imaging.</p> -->
+			<!-- <div class="cta button alt"><a href="#">Join Now</a></div> -->
 		</div>
 	</div>
 	<div class="learn-more"><a href="#learn-more">Learn more <span class="arrow">&#x25BC;</span></a></div>
 </section>
 
+
 <div class="content">
+
 	<section class="info" id="learn-more">
 		<div class="container flex">
 			<div class="text">
-				<h2 class="editable">Introduce yourself</h2>
-				<p class="editable">Making news friends in the adult world is hard. Frisco is the perfect filter matching you the most interesting people in your area.</p>
+				<p class="intro_group">The EZLab is involved with multiple research programs on integrated photonics and nanophotonics. Our mission is to tackle the challenges of the acceleratingly increasing trend of data, network connections, and bandwidth by providing novel devices with high performance and high energy efficiency. We explore the fundamental device physics and AI-based photonic devices, with applications ranging from optical computing and optical interconnects to optical sensing and imaging.</p>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="info" id="learn-more">
+		<div class="container flex">
+			<div class="text">
+				<!-- <h2 class="editable">Optical Phase Arrays</h2> -->
+				<p class="intro">Optical phased arrays (OPAs) are critical in LiDAR imaging, free-space optical communication, and gas sensing. On-chip OPAs have attracted extensive attention due to their compactness, reliability, lightweight, low power consumption, and fast scanning. We dedicate to providing on-chip integrated OPAs feature a wide field of view, large operation bandwidth, high power emission, high spatial resolution, energy-efficient, and fast manipulation rate.</p>
 			</div>
 			<div class="image">
-				<img class="editable" src="http://placehold.it/650x1300" alt="Screenshot" />
+				<img class="editable" src="{% include relative-src.html src=page.optical_antenna %}" alt="Optical Phase Arrays" />
+			</div>
+		</div>
+	</section>
+
+
+	<section class="info">
+		<div class="container flex">
+			<div class="text">
+				<!-- <h2 class="editable">On-Chip Spectroscopy and Sensing</h2> -->
+				<p class="intro">Mid-infrared on-chip sensing and spectroscopy are essential in environment monitoring, safe industry detection, medical diagnosis, aerospace exploration, and military security. Benefitting from a broad optical transparency window (1.1 micron to 8 micron) of silicon and mature fabrication technologies, silicon photonic devices cover the so-called “molecule fingerprint region” and enable a low power consumption, low cost, on-chip sensing system. We explore nanoscale photonic waveguide structures that can manipulate, slow down, trap, and enhance light. We also investigate on-chip sensing systems that can sense and analyze molecules simultaneously.</p>
+			</div>
+			<div class="image">
+				<img class="editable" src="{% include relative-src.html src=page.optical_sensing %}" alt="On-Chip Spectroscopy and Sensing" />
 			</div>
 		</div>
 	</section>
@@ -32,33 +60,36 @@ bottom_image: https://unsplash.it/2000/1322?a=.png
 	<section class="info">
 		<div class="container flex">
 			<div class="text">
-				<h2 class="editable">Pick your interests</h2>
-				<p class="editable">The more you tell Frisco the better it gets to know you. Frisco matches you with people who share similar interests with you.</p>
+				<!-- <h2 class="editable">Optical Interconnect</h2> -->
+				<p class="intro">Driven by cloud computing, support of mobile devices, Internet traffic volume, and computation-intensive applications, the demand for computing systems with higher performance and energy efficiency continues to grow. Cryogenic computing is considered a potential solution to address this issue. Optical interconnect offers several advantages, such as low latency, higher bandwidth, low heat dissipation, flexible interconnect architecture, and most important in this situation – thermal isolation, over electronic interconnect for transmitting signals between a data processor at cryogenic temperature and a control system at room temperature. We work on silicon photonic devices to enable a high-speed and energy-efficient solution for cryogenic interconnecting applications.</p>
 			</div>
 			<div class="image">
-				<img class="editable" src="http://placehold.it/650x1300" alt="Screenshot" />
+				<img class="editable" src="{% include relative-src.html src=page.optical_interconnect %}" alt="Optical Interconnect" />
 			</div>
 		</div>
 	</section>
 
-	<section class="info">
+
+	<section class="info" id="learn-more">
 		<div class="container flex">
 			<div class="text">
-				<h2 class="editable">Swipe and go</h2>
-				<p class="editable">Frisco shows you cards with people who might be a good match for friendship. Swipe left to move to the next card or right to start talking.</p>
+				<!-- <h2 class="editable">Optical Computing</h2> -->
+				<p class="intro">The saturation of Moore’s law and the surge in the volumes of data generated and consumed by devices have forced massive research in non-conventional information processing techniques, such as quantum computing, superconducting computing, etc. Integrated photonic processors offer massively parallel data transfer, extremely high data modulation speeds, as well as low power consumption. We aim to develop on-chip optoelectronic processors that could take advantage of photonics to assist electronic computing.</p>
 			</div>
 			<div class="image">
-				<img class="editable" src="http://placehold.it/650x1300" alt="Screenshot" />
+				<img class="editable" src="{% include relative-src.html src=page.optical_computing %}" alt="Optical Computing" />
 			</div>
 		</div>
 	</section>
+
+
 
 	<section class="hero" style="background-image: url({% include relative-src.html src=page.bottom_image %})">
 		<div class="inner-hero text-container">
 			<div class="hero-text-container">
-				<h2 class="editable">Find your buddy today</h2>
-				<p class="subtext editable">It's free, fun and an exciting way to meet new people.</p>
-				<div class="cta button alt"><a href="#">Join Now</a></div>
+				<h2 class="editable">Join Now</h2>
+				<p class="subtext editable">We currently have openings for Research Scientists, Postdoctoral Fellows, and MS students in our group. Please contact Prof. Zou at zouyi@shanghaitech.edu.cn to get more information. We expect you to join us!</p>
+				<!-- <div class="cta button alt"><a href="#">Join Now</a></div> -->
 			</div>
 		</div>
 	</section>

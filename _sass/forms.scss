@@ -1,11 +1,11 @@
 .button a, input[type=submit] {
-	color: $brand-color;
+	color: #fff;
 	text-decoration: none;
-	border: 2px solid $brand-color;
+	border: 2px solid #fff;
 	transition: .2s ease-in-out;
 	display: inline-block;
 	padding: 16px 50px;
-	background: #fff;
+	background: #202020;
 }
 
 .button a:hover, input[type=submit]:hover {

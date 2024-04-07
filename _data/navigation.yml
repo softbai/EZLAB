@@ -1,6 +1,10 @@
-- name: Blog
+- name: Home
+  link: /
+- name: News
   link: /blog/
 - name: About
   link: /about/
+- name: Publications
+  link: /publications/
 - name: Contact
   link: /contact/
